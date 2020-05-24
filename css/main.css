@@ -433,10 +433,10 @@ a:hover{
 /*GALLERY*/
 .card{
 	border: none;
-	align-self: flex-start;
+	margin: 0 auto 0 auto;
 }
 .card-deck{
-	align-items: center;
+	align-items: flex-start;
 }
 
 
