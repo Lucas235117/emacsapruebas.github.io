@@ -36,80 +36,6 @@ a:hover{
 	background-color: #e3e3e391 !important;
 }
 
-.top-contact{
-	height: 43px;
-	color: white;
-	background-color: #3c3c3c;
-	display: grid;
-	grid-template-columns: repeat(7,  1fr);
-	grid-template-areas: 
-	"topPhone topMail . . . topSocial .";
-}
-
-@media only screen and (max-width: 968px){
-	.top-contact{
-		display: none;
-	}
-}
-
-/*@media only screen and (max-width: 968px){
-	.top-contact{
-		grid-template-columns: repeat(2,  1fr);
-		grid-template-rows: repeat(2,  1fr);
-		grid-template-areas: 
-		"topPhone topMail"
-		"topSocial topSocial";
-		grid-column-gap: 10px;
-	}
-	.logo{
-		width: 12%;
-	}
-}
-@media only screen and (max-width: 552px){
-	.top-contact{
-		height: 70px;
-		grid-template-columns: 1fr;
-		grid-template-rows: repeat(3,  1fr);
-		grid-template-areas: 
-		"topPhone"
-		"topMail"
-		"topSocial";
-		grid-column-gap: 10px;
-	}
-
-	.sub-contact:nth-child(2){
-		justify-self: center;
-		grid-column-start: 1 !important ;
-	}
-	.logo{
-		width: 25%;
-	}
-
-}*/
-
-.sub-contact{
-	align-self: center;
-	justify-self: center;
-	text-decoration: none;
-}
-.sub-contact svg{
-	margin-left: 20px;
-}
-
-.sub-contact:nth-child(1){
-	grid-area: topPhone;
-	grid-column-start: 1;
-}
-
-.sub-contact:nth-child(2){
-	grid-area: topMail;
-	grid-column-start: 2;
-	grid-column-end: 4;
-}
-.sub-contact:nth-child(3){
-	grid-area: topSocial;
-}
-
 .nav-link:hover, .active > .nav-link{
 	color: rgb(238, 112, 21) !important;
 }
@@ -231,7 +157,7 @@ a:hover{
 }
 
 .ing-box{
-	padding: 5% 25px 5%;
+	padding: 2% 4% 1px;
 	background-color: #3e3e3e;	
 	color: white;
 }
@@ -278,14 +204,14 @@ a:hover{
 #footer{
 	background-color: #ff7112;
 	color: white;
-	padding-top: 15px;
+	padding-top: 5px;
 }
 #footer{
 	flex: 0 0 auto;
 	-webkit-flex: 0 0 auto;
 }
 #footer .row{
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
 #footer ul{
@@ -319,13 +245,13 @@ a:hover{
 	padding: 5px;
 }
 #footer .footer-copy{
-	background-color: #333333;
-	padding-top: 3px;
-	padding-bottom: 3px;
+	background-color: #b35900;
+	padding-top: 1px;
+	padding-bottom: 1px;
 	text-align: center;
 }
 .footer-copy p{
-	margin: 10px;
+	margin: 3px;
 }
 
 /*FORM */
@@ -433,7 +359,7 @@ a:hover{
 /*GALLERY*/
 .card{
 	border: none;
-	margin: 0 auto 0 auto;
+	margin: 3% auto 5% auto;
 }
 .card-deck{
 	align-items: flex-start;
